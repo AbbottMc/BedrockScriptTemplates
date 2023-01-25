@@ -20,7 +20,7 @@
       "language": "javascript",
       "uuid": "{{scriptModuleUUID}}",
       "version": [0, 1, 0],
-      "entry": "{{scriptEntryPath}}"
+      "entry": "scripts/build/Main.js"
     }
   ],
   "dependencies": [

@@ -2,5 +2,5 @@
 import {world} from '@minecraft/server';
 
 world.events.blockPlace.subscribe(({player, block})=>{
-	world.say(`玩家：“${player.name}”放置了id为：“${block.typeId}”的方块`);
+  world.say(`玩家：“${player.name}”放置了id为：“${block.typeId}”的方块`);
 });
