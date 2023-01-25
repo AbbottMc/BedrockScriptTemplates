@@ -1,0 +1,21 @@
+{
+  "name": "minecraft-scripts",
+  "version": "1.0.0",
+  "description": "Minecraft基岩版脚本",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Minecraft",
+    "Bedrock",
+    "Javascript",
+    "TypeScript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@minecraft/server": "^1.1.0-beta.release.1.19.50",
+    "@minecraft/server-ui": "^1.0.0-beta.release.1.19.50"
+  }
+}

@@ -1,0 +1,4 @@
+/bev/scripts/node_modules/
+/bev/scripts/package-lock.json
+/.idea/
+/.vscode/

@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "{{packDescription}}",
+    "name": "{{packName}}",
+    "uuid": "{{headerUUID}}",
+    "verion": {{packVersion}},
+    "min_engine_version": [1, 19, 50]
+  },
+  "modules": [
+    {
+      "description": "Behavior Pack Module",
+      "type": "data",
+      "uuid": "{{behaviorModuleUUID}}",
+      "version": [0, 1, 0]
+    },
+    {
+      "description": "Script API Module",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "{{scriptModuleUUID}}",
+      "version": [0, 1, 0],
+      "entry": "{{scriptEntryPath}}"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.1.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.0.0-beta"
+    }
+  ],
+  "metadata": {
+    "authors": {{authors}}
+  }
+} 
