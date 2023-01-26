@@ -34,6 +34,6 @@
     }
   ],
   "metadata": {
-    "authors": [{{authors}}]
+    "authors": ["{{authors}}"]
   }
 } 
