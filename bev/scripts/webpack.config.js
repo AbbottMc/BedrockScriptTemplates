@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: "none",
-  entry: './{{project_id}}/Main.ts',
+  entry: './Main.ts',
   output: {
     filename: 'Main.js',
     path: path.resolve(__dirname, 'build')
