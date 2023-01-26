@@ -4,7 +4,7 @@
     "description": "{{packDescription}}",
     "name": "{{packName}}",
     "uuid": "{{headerUUID}}",
-    "verion": {{packVersion}},
+    "verion": [{{packVersion}}],
     "min_engine_version": [1, 19, 50]
   },
   "modules": [
@@ -34,6 +34,6 @@
     }
   ],
   "metadata": {
-    "authors": {{authors}}
+    "authors": [{{authors}}]
   }
 } 
