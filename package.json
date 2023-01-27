@@ -2,7 +2,7 @@
   "name": "minecraft-scripts",
   "version": "1.0.0",
   "description": "Minecraft基岩版脚本",
-  "main": "Main.js",
+  "main": "./bev/scripts/dev/Main.ts",
   "scripts": {
     "build": "npx webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,8 +13,8 @@
     "Javascript",
     "TypeScript"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "{{authors}}",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.10",
     "@babel/plugin-transform-runtime": "^7.17.10",

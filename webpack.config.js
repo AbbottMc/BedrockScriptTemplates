@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
   mode: "none",
-  entry: './Main.ts',
+  entry: './bev/scripts/dev/Main.ts',
   output: {
     filename: 'Main.js',
-    path: path.resolve(__dirname, 'build')
+    path: path.resolve(__dirname, 'bev/scripts/build')
   },
   experiments: {
     outputModule: true

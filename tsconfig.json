@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./build/",
+    "outDir": "./bev/scripts/build/",
     "noImplicitAny": true,
     "moduleResolution": "Node",
     "module": "es6",
